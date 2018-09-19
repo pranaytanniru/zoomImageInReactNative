@@ -19,7 +19,7 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <PhotoView
-          source={{uri: 'https://media.alienwarearena.com/media/link-7.png'}}
+          source={require('./assets/sample.png')}
           onLoad={() => console.log("onLoad called")}
           onTap={() => console.log("onTap called")}
           minimumZoomScale={1}
